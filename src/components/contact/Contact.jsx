@@ -98,7 +98,6 @@ const Contact = () => {
             placeholder="Mesajınız"
             required
           ></textarea>
-          <button type="submit">Gönder</button>
         </form>
 
         <div className="contact-info">

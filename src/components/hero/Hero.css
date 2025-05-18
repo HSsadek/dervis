@@ -290,6 +290,13 @@
     z-index: 1000;
     cursor: pointer;
   }
+  .call {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 110px;
+    right: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -370,6 +377,13 @@
     z-index: 1000;
     cursor: pointer;
   }
+  .call {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    right: 30px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -447,5 +461,12 @@
     height: 60px;
     bottom: 20px;
     right: 20px;
+  }
+  .call {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+    right: 30px;
   }
 }

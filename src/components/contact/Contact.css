@@ -60,36 +60,17 @@
   height: 100px;
 }
 
-.contact-form button {
-  padding: 12px;
-  background-color: #2ecc71;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form button:hover {
-  background-color: #27ae60;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
 .contact-form button:active {
   transform: translateY(0);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
-.contact-info {
+/* .contact-info {
   margin-top: 30px;
   font-size: 15px;
   padding: 15px;
   border-top: 1px solid #eee;
-}
+} */
 
 .form-message {
   padding: 12px;
@@ -120,15 +101,6 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.contact-info a {
-  color: #2ecc71;
-  text-decoration: none;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
 }
 
 .contact-icons {
@@ -165,11 +137,11 @@
 }
 
 .whatsapp-icon {
-  background-color: #25D366;
+  background-color: #25d366;
 }
 
 .whatsapp-icon:hover {
-  background-color: #128C7E;
+  background-color: #128c7e;
 }
 
 .contact-icon svg {
