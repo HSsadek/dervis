@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
   overflow-y: scroll;
   height: 100%;
-  scrollbar-width: none; /* Firefox */
+  /* scrollbar-width: none; Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
 

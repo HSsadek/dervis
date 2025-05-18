@@ -19,7 +19,7 @@
   transition: all 0.3s ease;
   overflow-y: auto;
   max-height: 90vh;
-  scrollbar-width: none; /* Firefox */
+  /* scrollbar-width: none; Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
 
@@ -112,8 +112,14 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .contact-info a {
@@ -123,4 +129,49 @@
 
 .contact-info a:hover {
   text-decoration: underline;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.phone-icon {
+  background-color: #3498db;
+}
+
+.phone-icon:hover {
+  background-color: #2980b9;
+}
+
+.whatsapp-icon {
+  background-color: #25D366;
+}
+
+.whatsapp-icon:hover {
+  background-color: #128C7E;
+}
+
+.contact-icon svg {
+  font-size: 20px;
 }

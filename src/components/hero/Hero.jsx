@@ -34,12 +34,22 @@ const Hero = () => {
         <Speech />
         <div className="whatsap">
           <a
-            href="https://wa.me/905342455648"
+            href="https://wa.me/905352645648"
             className="whatsapp-float"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/whatsapimg.png" alt="WhatsApp" />
+          </a>
+        </div>
+        <div className="call">
+          <a
+            href="tel:+905352645648"
+            className="whatsapp-float"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/call.png" alt="WhatsApp" />
           </a>
         </div>
       </div>
