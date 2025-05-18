@@ -1,0 +1,430 @@
+.hero {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.hSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .hSection .left {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  font-size: 10px;
+} */
+
+.hTitle {
+  margin-top: 50px;
+  font-size: 50px;
+  color: black;
+}
+
+.hTitle span {
+  color: blue;
+}
+
+.desc {
+  width: 30%;
+  /* margin-bottom: 120px; */
+}
+
+.esyaList {
+  width: 30%;
+  display: flex;
+  gap: 10px;
+}
+
+.desc h2 {
+  color: black;
+}
+
+.desc p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.634);
+  margin: 16px 0;
+}
+
+.esyaList img {
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.hSection.right {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.bubbleContainers {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 50px;
+}
+
+.bubbleContainer {
+  width: 55%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.bubble-one {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 20px 20px 0 20px;
+}
+.bubble-two {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.bubbleContainer img {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.whatsap {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.whatsap:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.whatsap img {
+  width: 100%;
+  height: auto;
+}
+
+.hbg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.shape {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.himg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 80%;
+  width: max-content;
+}
+.himg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1280px) {
+  .hSection.left {
+    height: 70%;
+  }
+  .hTitle {
+    color: white;
+    font-size: 30px;
+  }
+  .hTitle span {
+    font-size: 50px;
+  }
+  .hTitle .two {
+    color: black;
+    font-size: 50px;
+  }
+
+  .desc h2 {
+    color: blue;
+  }
+
+  .desc p {
+    font-size: 14px;
+    color: white;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .hSection.left {
+    height: 70%;
+  }
+  .hTitle {
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .hTitle span {
+    font-size: 70px;
+  }
+  .desc {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+  .desc h2 {
+    color: blue;
+    font-size: 30px;
+  }
+
+  .desc p {
+    font-size: 14px;
+    color: white;
+    margin: 20px 0;
+  }
+
+  .esyaList img {
+    width: 50px;
+    height: 50px;
+  }
+  .himg {
+    height: 70%;
+  }
+  .shape {
+    height: 70%;
+  }
+
+  .hSection.right {
+    justify-content: flex-start;
+  }
+
+  .bubbleContainer img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .bubbleContainer {
+    height: 50%;
+    width: 100%;
+  }
+  .bubble-two {
+    width: 50%;
+    height: 70%;
+  }
+  .bubble-one {
+    width: 50%;
+    height: 70%;
+  }
+
+  .bubbleContainers {
+    align-items: center;
+    gap: 10px;
+  }
+
+  .whatsap {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .hSection.left {
+    height: 70%;
+  }
+  .hTitle {
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .hTitle span {
+    font-size: 70px;
+  }
+  .desc {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+  .desc h2 {
+    color: blue;
+    font-size: 30px;
+  }
+
+  .desc p {
+    font-size: 14px;
+    color: white;
+    margin: 20px 0;
+  }
+
+  .esyaList img {
+    width: 50px;
+    height: 50px;
+  }
+  .himg {
+    height: 60%;
+  }
+  .shape {
+    height: 60%;
+  }
+
+  .hSection.right {
+    justify-content: flex-start;
+  }
+
+  .bubbleContainer img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bubbleContainer {
+    height: 70%;
+    width: 100%;
+  }
+
+  .bubbleContainer.One {
+    display: none;
+  }
+  .bubble-two {
+    width: 50%;
+    height: 70%;
+  }
+
+  .bubbleContainers {
+    align-items: center;
+  }
+
+  .whatsap {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .hSection.left {
+    height: 70%;
+  }
+  .hTitle {
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+  }
+  .hTitle span {
+    font-size: 35px;
+  }
+  .desc {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+  .desc h2 {
+    color: blue;
+    font-size: 14px;
+  }
+
+  .desc p {
+    font-size: 10px;
+    color: white;
+    margin: 16px 0;
+  }
+
+  .esyaList img {
+    width: 40px;
+    height: 40px;
+  }
+  .himg {
+    height: 50%;
+    overflow: hidden;
+  }
+  .shape {
+    height: 50%;
+  }
+
+  .hSection.right {
+    justify-content: flex-start;
+  }
+
+  .bubbleContainer img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bubbleContainer {
+    height: 70%;
+    width: 90%;
+  }
+
+  .bubbleContainer.One {
+    display: none;
+  }
+  .bubble-two {
+    width: 110px;
+    height: 80%;
+  }
+
+  .bubbleContainers {
+    align-items: center;
+  }
+
+  .whatsap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
